@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'demoAngularFLorenne';
+  title : string = 'demoAngularFLorenne'
+  nb1 : number = 42
+  bool : boolean = false
+  uneDate : Date = new Date()
+  
 }
